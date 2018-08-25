@@ -1,0 +1,314 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+background-image: url("../images/gravel.png");
+margin: 0;
+padding: 0;
+font-family:"Georgia","Times new Roman", Times, serif;
+font-size: 18px;
+line-height: 150%;
+color:#777777;
+
+}
+
+p{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+
+.fondo{
+    clear: both;
+    background:green;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 2px solid #cccccc;
+    height: 80px;
+    position: relative;
+}
+
+.theheader{
+    width: 350px;
+    background: #4aaaa5;
+    float: left;
+    margin-left: 400px;
+    height: 80px;
+    font-size:10px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+   
+.menus{
+    
+    position:absolute;
+  
+   margin-left:1050px;
+}
+
+.aboutme{
+   
+    color: white;
+    text-align: center;
+    font-size: 15px;
+        padding:10px;
+    
+    
+}
+#menu1{
+padding: 10px;
+padding-bottom: 5px;
+float:left;
+
+
+}
+
+#menu2{
+    padding: 10px;
+    float:left;
+    border-right:#cccccc;
+}
+
+#menu3{
+    padding: 10px;
+    float:left;
+    border-right: #cccccc;
+}
+
+.mypicture{
+    float: left;
+}
+
+#bio-image{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.thewrapper{
+    width: 960px;
+    margin-left: 400px;
+    background-color:#ffffff;
+    height: 700px;
+  
+   
+}
+.header2{
+    margin-top:20px;
+    padding-top: 10px;
+    border-bottom: 5px solid #cccccc;
+    color:#4aaaa5;
+}
+.Text1{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.clearfix{
+    overflow:auto;
+}
+
+.Text2{
+    clear: both;
+
+}    
+.Text3{
+    clear: both; 
+}
+
+footer{
+    width:100%;
+    background:#666666;
+    background-color: #666666;
+    height: 50px;
+    margin-bottom: 0%;
+   
+    bottom:0%;
+    margin-top: 150px;
+    left:0;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    color:white;
+    position:fixed;
+   
+
+    }
+
+    /*End CSS for the index */
+
+/*#cisco1{
+    position:relative;
+    margin-top:10px;
+}
+*/
+
+
+
+/* Here the CSS for the Portafolio */
+
+.picture1{
+    position:relative;
+    float: left;
+    width:300px;
+    height: 200px;
+}
+
+.cisco{
+    position:absolute;
+    background: #4aaaa5;
+    top:110px;
+    width: 300px;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+    color: #ffffff;
+ 
+    
+          
+}
+
+.picture2 {
+ position: relative;
+margin-left:40px;
+float: left;
+width:300px;
+height:200px;
+
+}
+
+.fortinet{
+   
+    position:absolute;
+    background: #4aaaa5;
+        
+        width: 100px;
+        float: left;
+        top:110px;
+        width: 300px;
+        height: 30px;
+        
+        font-size: 10px;
+        text-align: center;
+        color: #ffffff
+
+}
+
+.picture3 {
+     clear: both;
+    position: relative;
+  margin-top: 0px;
+   float: left;
+   width: 300px;
+   height:200px;
+   
+   }
+   
+   .paloalto{
+      
+       position:absolute;
+       background: #4aaaa5;
+           
+           
+           float: left;
+           width: 100px;
+           float: left;
+           top:110px;
+           width: 300px;
+           height: 30px;
+           
+           font-size: 10px;
+           text-align: center;
+           color: #ffffff
+   
+      }
+
+
+      .picture4 {
+        position: relative;
+     margin-top: 0px;
+      float: left;
+      width: 300px;
+      height:100px;
+      margin-left: 40px;
+      
+      }
+      
+      .checkpoint{
+         
+          position:absolute;
+          background: #4aaaa5;
+              
+              width: 100px;
+              float: left;
+             
+              width: 100px;
+        float: left;
+        top:110px;
+        width: 300px;
+        height: 30px;
+        
+        font-size: 10px;
+        text-align: center;
+        color: #ffffff
+         }
+    
+
+
+         .picture5 {
+             clear: both;
+            position: relative;
+         margin-top: 0px;
+          float: left;
+          width: 300px;
+          height:100px;
+         
+          
+          }
+          
+          .juniper{
+             
+              position:absolute;
+              background: #4aaaa5;
+                  
+                  width: 100px;
+                  float: left;
+                  
+                  width: 100px;
+                  float: left;
+                  top:110px;
+                  width: 300px;
+                  height: 30px;
+                  
+                  font-size: 10px;
+                  text-align: center;
+                  color: #ffffff
+             }
+
+
+             input[type=text]{
+            width: 100%;
+            padding:12px;
+
+             }
+    #message{
+        width: 100%;
+            padding:120px;
+    }
+
+    /* Here the CSS for the Contact */
+
+    .button {
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
